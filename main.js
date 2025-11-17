@@ -6,5 +6,6 @@ mobileToggle.addEventListener('click', () => {
   nav.style.display = nav.style.display === 'block' ? '' : 'block';
 });
 document.getElementById('callBtn').addEventListener('click', () => {
-  window.location.href = 'tel:+91XXXXXXXXXX';
+  window.location.href = 'tel:+91 9315381500, 9582505055, 9990444451';
 });
+
