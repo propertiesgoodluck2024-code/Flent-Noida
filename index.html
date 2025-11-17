@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flent Noida — Subleasing & Flat Caretaking</title>
+  <meta name="description" content="Flent Noida — Subleasing, property caretaking, tenant placement & end-to-end flat management in Noida, Greater Noida & NCR." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+  <!-- Replace the following with your Google Fonts if you like -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Flent Noida logo" class="logo" />
+        <div class="brand-text">
+          <h1>Flent Noida</h1>
+          <p class="tag">Noida-focused Subleasing & Flat Caretaking</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#how">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#owners">For Owners</a>
+        <a href="#contact" class="cta">Get Started</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Full-service subleasing & caretaking in Noida · Hassle-free rental income</h2>
+          <p>We manage maintenance, tenant sourcing, rental agreements, rent collection and inspections — tailored for Noida, Greater Noida & Noida Extension.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get a Free Owner Audit</a>
+            <a href="#pricing" class="btn btn-outline">See Pricing</a>
+          </div>
+          <ul class="trust-list">
+            <li>✔ Trusted by NRI & local owners</li>
+            <li>✔ Monthly photo/video reports</li>
+            <li>✔ Fast tenant placement (avg. 7–14 days)</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="assets/hero.jpg" alt="Flats in Noida" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section container">
+      <h3>Our Services</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Subleasing & Co-living Setup</h4>
+          <p>We take your flat on long-term lease, furnish if required, and manage tenanting to maximize returns.</p>
+        </article>
+        <article class="card">
+          <h4>Tenant Placement</h4>
+          <p>Screening, police verification, move-in/move-out, and full documentation.</p>
+        </article>
+        <article class="card">
+          <h4>Maintenance & Repairs</h4>
+          <p>24/7 co-ordination for plumbing, electrical, cleaning & society dues handling.</p>
+        </article>
+        <article class="card">
+          <h4>Rent Collection & Accounts</h4>
+          <p>Monthly invoicing, rent transfer to owner and transparent reports.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section secondary container">
+      <h3>How It Works</h3>
+      <ol class="steps">
+        <li><strong>Free audit:</strong> We inspect & propose a rental plan.</li>
+        <li><strong>Agreement:</strong> Owner authorizes us; we sign lease/sublease.</li>
+        <li><strong>Tenanting:</strong> Furnish (optional) → List → Screen → Move-in.</li>
+        <li><strong>Management:</strong> Monthly reports, maintenance & collection.</li>
+      </ol>
+    </section>
+
+    <section id="pricing" class="section container">
+      <h3>Pricing (Noida-focused)</h3>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h4>Basic</h4>
+          <p class="price">₹999 / month</p>
+          <ul>
+            <li>Monthly inspection & photos</li>
+            <li>Rent collection</li>
+            <li>Owner dashboard (WhatsApp updates)</li>
+          </ul>
+          <p class="small">Placement fee: 50% of 1 month rent (or 1 month)</p>
+        </div>
+        <div class="price-card recommended">
+          <h4>Pro</h4>
+          <p class="price">₹1,499 / month</p>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>Free minor repairs (up to ₹1,000/month)</li>
+            <li>Priority support</li>
+          </ul>
+          <p class="small">Placement fee: 1 month rent</p>
+        </div>
+        <div class="price-card">
+          <h4>Premium</h4>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Furnishing assistance</li>
+            <li>Full co-living conversion</li>
+            <li>Dedicated account manager</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="owners" class="section container">
+      <h3>Why Owners Choose Flent Noida</h3>
+      <ul class="owner-benefits">
+        <li>Guaranteed transparency: monthly bank + photo reports</li>
+        <li>Local presence in Noida → faster maintenance</li>
+        <li>Legal agreements & deposit handling</li>
+        <li>Trusted contractors & cleaners</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact container">
+      <h3>Contact Us</h3>
+      <p>Ready for a free audit? Fill the form and we'll call you within 24 hours.</p>
+
+      <!-- Option A: Formspree (works without backend) -->
+      <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Phone (WhatsApp preferred)" required />
+          <input type="text" name="city" placeholder="City (e.g., Noida)" value="Noida" />
+        </div>
+        <textarea name="message" placeholder="Tell us about the flat (area, BHK, society)"></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Request Free Audit</button>
+          <button type="button" id="callBtn" class="btn btn-outline">Call +91-XXXXXXXXXX</button>
+        </div>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> hello@flentnoida.com</p>
+        <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+        <p><strong>Service Area:</strong> Noida, Greater Noida, Noida Extension</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Flent Noida — Subleasing & Property Caretaking. All rights reserved.</p>
+        <p class="small">Replace contact details with your email & number. This is a demo site.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
